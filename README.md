@@ -19,7 +19,7 @@ Makre sure to specify the ```model_path``` as desired pre-trained model.
 
 If you find new baseline useful, please cite the following paper
 
-```
+``` 
 ******
 ```
 For any questions, please submit an issue or contact [jiamiansc@gamil.com](jiamiansc@gamil.com). 
