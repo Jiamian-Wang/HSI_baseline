@@ -26,12 +26,10 @@ logger = None
 
 mask3d_batch = generate_masks(mask_path, batch_size)
 test_data = LoadTest(test_path, patch_size)
-model_path = '/data/jiamianw/ICCV_arXiv/models/v3/model_epoch_166.pth'
+model_path = '/data/jiamianw/ICCV_arXiv/models/v3/model_epoch_199.pth'
 
-# model = torch.load(model_path, map_location=lambda storage, loc: storage.cuda(0))
 model = torch.load(model_path)
 
-print(model)
 def test(logger):
     psnr_list, ssim_list = [], []
     test_gt = test_data.cuda().float()
