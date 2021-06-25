@@ -2,7 +2,7 @@
 
 This repository contains the test code and pre-trained models for the arXiv paper "******".
 
-![framework](framwwork_v3.pdf) 
+![framework](https://github.com/Jiamian-Wang/HSI_baseline/blob/main/framework_v3.pdf) 
 
 ## Data
 
