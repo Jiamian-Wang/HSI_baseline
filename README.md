@@ -1,4 +1,4 @@
-# Title: new baseline for CASSI measurement reconstruction
+# new baseline for CASSI measurement reconstruction
 
 This repository contains the test code and pre-trained models for the arXiv paper "******".
 
