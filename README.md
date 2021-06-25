@@ -2,7 +2,7 @@
 
 This repository contains the test code and pre-trained models for the arXiv paper "******".
 
-![mlc_model](mlc.png)
+![framework](framwwork_v3.pdf)
 
 ## Data
 
