@@ -7,7 +7,6 @@ from utils import *
 import models_resblock_v2
 import models_resblock_v3
 import models_resblock_v4
-from collections import OrderedDict
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
@@ -26,7 +25,7 @@ logger = None
 
 mask3d_batch = generate_masks(mask_path, batch_size)
 test_data = LoadTest(test_path, patch_size)
-model_path = '/data/jiamianw/ICCV_arXiv/models/v3/model_epoch_199.pth'
+model_path = '/data/jiamianw/ICCV_arXiv/models/v1/model_epoch_198.pth'
 
 model = torch.load(model_path)
 
