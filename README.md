@@ -1,4 +1,4 @@
-# Pure Residual Learning Pickup:  Redefine the Baseline for CASSIMeasurement Reconstruction
+# Pure Residual Learning Pickup:  Redefine the Baseline for CASSI Measurement Reconstruction
 
 This repository contains the test code and pre-trained models for the arXiv paper "******".
 
