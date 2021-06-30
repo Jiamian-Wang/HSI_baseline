@@ -7,7 +7,6 @@ import numpy as np
 import scipy.io as sio
 from ssim_torch import ssim
 
-
 def generate_masks(mask_path, batch_size):
 
     mask = sio.loadmat(mask_path + '/mask.mat')
