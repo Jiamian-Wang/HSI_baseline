@@ -53,8 +53,7 @@ def test(logger):
      
 def main():
     (pred, truth, psnr_all, ssim_all, psnr_mean, ssim_mean) = test(logger)
-    # print('mean PSNR=', psnr_mean)
-    # print('mean SSIM=', ssim_mean)
+
 
 if __name__ == '__main__':
     main()    

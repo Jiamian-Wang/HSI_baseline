@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from architecture.TSA_Module import TSA_Transform
 from architecture.ResidualFeat import Res2Net
 from architecture.netunit import *
 import common

@@ -37,7 +37,7 @@ class BasicBlock(nn.Sequential):
 class ResBlock(nn.Module):
     def __init__(
         self, conv, n_feats, kernel_size,
-        bias=True, bn=False, act=nn.ReLU(True), res_scale=1): ###########################need to be changed!!
+        bias=True, bn=False, act=nn.ReLU(True), res_scale=1):
 
         super(ResBlock, self).__init__()
         m = []
@@ -61,7 +61,7 @@ class Upsampler(nn.Sequential):
     def __init__(self, conv, scale, n_feats, bn=False, act=False, bias=True):
 
         m = []
-        if (scale & (scale - 1)) == 0:    # Is scale = 2^n?
+        if (scale & (scale - 1)) == 0:
             for _ in range(int(math.log(scale, 2))):
                 m.append(conv(n_feats, 4 * n_feats, 3, bias))
                 m.append(nn.PixelShuffle(2))
