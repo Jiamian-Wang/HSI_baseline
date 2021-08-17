@@ -7,10 +7,10 @@ import common
 
 _NORM_BONE = False
 
-class EDSR(nn.Module):
+class SSI_RES_UNET(nn.Module):
 
     def __init__(self, in_ch=28, out_ch=28, conv=common.default_conv):
-        super(EDSR, self).__init__()
+        super(SSI_RES_UNET, self).__init__()
 
         n_resblocks = 16
         n_feats = 64
