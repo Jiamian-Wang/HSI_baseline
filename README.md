@@ -1,4 +1,4 @@
-# Pure Residual Learning Pickup:  Redefine the Baseline for CASSI Measurement Reconstruction
+# A New Backbone for Hyperspectral Image Reconstruction
 
 This repository contains the test code and pre-trained models for the arXiv paper "******".
 
@@ -20,6 +20,13 @@ Makre sure to specify the ```model_path``` as desired pre-trained model.
 If you find new baseline useful, please cite the following paper
 
 ``` 
-******
+@misc{wang2021new,
+      title={A New Backbone for Hyperspectral Image Reconstruction}, 
+      author={Jiamian Wang and Yulun Zhang and Xin Yuan and Yun Fu and Zhiqiang Tao},
+      year={2021},
+      eprint={2108.07739},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
 ```
 For any questions, please submit an issue or contact [jiamiansc@gamil.com](jiamiansc@gamil.com). 
