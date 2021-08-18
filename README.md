@@ -1,6 +1,6 @@
 # A New Backbone for Hyperspectral Image Reconstruction
 
-This repository contains the test code and pre-trained models for the arXiv paper "******".
+This repository contains the test code and pre-trained models for the paper [arXiv](https://arxiv.org/abs/2108.07739).
 
 ![framework](https://github.com/Jiamian-Wang/HSI_baseline/blob/main/framework_v4.png) 
 
