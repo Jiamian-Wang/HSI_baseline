@@ -25,7 +25,7 @@ logger = None
 
 mask3d_batch = generate_masks(mask_path, batch_size)
 test_data = LoadTest(test_path, patch_size)
-model_path = '/data/jiamianw/ICCV_arXiv/models/v1/model_epoch_198.pth'
+model_path = '/data/jiamianw/ICCV_arXiv/models/v1/model_epoch_204.pth'
 
 model = torch.load(model_path)
 
