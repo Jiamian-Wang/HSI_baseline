@@ -8,7 +8,7 @@ import models_resblock_v2
 import models_resblock_v3
 import models_resblock_v4
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0" 
 
 if not torch.cuda.is_available():
     raise Exception('NO GPU!')
