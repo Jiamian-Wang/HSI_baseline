@@ -1,4 +1,5 @@
-# A New Backbone for Hyperspectral Image Reconstruction 
+# A Simple and Efficient Reconstruction Backbone for Snapshot Compressive Imaging
+
 
 This repository contains the test code and pre-trained models for the [arXiv paper](https://arxiv.org/abs/2108.07739) by [Jiamian Wang](https://github.com/Jiamian-Wang), [Yulun Zhang](http://yulunzhang.com/), [Xin Yuan](https://www.bell-labs.com/about/researcher-profiles/xyuan/), [Yun Fu](http://www1.ece.neu.edu/~yunfu/) and [Zhiqiang Tao](http://ztao.cc/).
 
@@ -20,13 +21,11 @@ Makre sure to specify the ```model_path``` as desired pre-trained model.
 If you find new baseline useful, please cite the following paper
 
 ``` 
-@misc{wang2021new,
-      title={A New Backbone for Hyperspectral Image Reconstruction}, 
-      author={Jiamian Wang and Yulun Zhang and Xin Yuan and Yun Fu and Zhiqiang Tao},
-      year={2021},
-      eprint={2108.07739},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@article{wang2021new,
+  title={A new backbone for hyperspectral image reconstruction},
+  author={Wang, Jiamian and Zhang, Yulun and Yuan, Xin and Fu, Yun and Tao, Zhiqiang},
+  journal={arXiv preprint arXiv:2108.07739},
+  year={2021}
 }
 ```
 For any questions, please submit an issue or contact [jiamiansc@gamil.com](jiamiansc@gamil.com). 
