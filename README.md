@@ -2,7 +2,7 @@
 
 This repository contains the test code and pre-trained models for the [arXiv paper](https://arxiv.org/abs/2108.07739) by [Jiamian Wang](https://github.com/Jiamian-Wang), [Yulun Zhang](http://yulunzhang.com/), [Xin Yuan](https://www.bell-labs.com/about/researcher-profiles/xyuan/), [Yun Fu](http://www1.ece.neu.edu/~yunfu/) and [Zhiqiang Tao](http://ztao.cc/).
 
-![framework](https://github.com/Jiamian-Wang/HSI_baseline/blob/main/framework_v4.png) 
+![framework](https://github.com/Jiamian-Wang/HSI_baseline/blob/main/framework.png) 
 
 ## Data
 
