@@ -28,4 +28,4 @@ If you find new baseline useful, please cite the following paper
   year={2021}
 }
 ```
-For any questions, please submit an issue or contact [jiamiansc@gamil.com](jiamiansc@gamil.com). 
+For any questions, please submit an issue or contact [jiamiansc@gmail.com](jiamiansc@gmail.com). 
